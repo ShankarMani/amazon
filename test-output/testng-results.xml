@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="47449" started-at="2018-03-22T18:08:11Z" finished-at="2018-03-22T18:08:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="47449" started-at="2018-03-22T18:08:11Z" finished-at="2018-03-22T18:08:59Z">
+      <class name="script.AddTest">
+        <test-method status="PASS" signature="openApp(java.lang.String)[pri:0, instance:script.AddTest@80503]" name="openApp" is-config="true" duration-ms="16100" started-at="2018-03-22T23:38:11Z" finished-at="2018-03-22T23:38:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testAdd()[pri:0, instance:script.AddTest@80503]" name="testAdd" duration-ms="31044" started-at="2018-03-22T23:38:28Z" finished-at="2018-03-22T23:38:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.AddTest@80503]" name="closeApp" is-config="true" duration-ms="224" started-at="2018-03-22T23:38:59Z" finished-at="2018-03-22T23:38:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAdd status=SUCCESS method=AddTest.testAdd()[pri:0, instance:script.AddTest@80503] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- script.AddTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
